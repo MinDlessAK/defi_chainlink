@@ -20,4 +20,5 @@ module.exports = async function(deployer, network, accounts) {
 
   // Transfer 100 Mock DAI tokens to investor
   await daiToken.transfer(accounts[1], '100000000000000000000')
+  //0x09b51b9D65a50bE051969b55933d8C245c3300DC
 }
